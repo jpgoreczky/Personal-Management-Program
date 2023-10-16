@@ -17,7 +17,7 @@ public class Main {
             printMenu();
             int selection = getSelection();
             System.out.println();
-
+            
             switch (selection) {
                 case 1:
                     addFaculty();
@@ -502,7 +502,7 @@ abstract class Person {
 
     public abstract void print();
 }
-//__________________
+//______________________________________
 
 abstract class Employee extends Person {
     private String department;
@@ -520,7 +520,7 @@ abstract class Employee extends Person {
         this.department = department;
     }
 }
-//______________________
+//____________________________
 
 class Staff extends Employee {
     private String status;
@@ -548,7 +548,7 @@ class Staff extends Employee {
     }
 
 }
-//________________________
+//______________________________
 
 class Faculty extends Employee {
     private String rank;
